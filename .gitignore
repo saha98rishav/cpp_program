@@ -34,3 +34,5 @@
 # Code Editor Configs
 .vscode
 .vscode/*
+
+.swp
