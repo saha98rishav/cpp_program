@@ -13,5 +13,6 @@ void func(T t, Args... args) {
 
 int main() {
   func(1, 2, 3, 4, 4.5, 6, 7, "Rishav Saha");
+  func(1,3,4,55,6,66,"Miii");
   return 0;
 }
