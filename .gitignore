@@ -35,4 +35,6 @@
 .vscode
 .vscode/*
 
-.swp
+*.swp
+*/*.swp
+

@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	
+
 	// lambda function
 	[]{ cout << "My name is Rishav\n"; }();
 
@@ -12,6 +12,9 @@ int main() {
 	// lambda function with return and operation
 	auto sum = [](auto a, auto b){ return a+b; };
 	cout << sum(8, 7) << endl;
-	
+
+	auto upperBound = 42;
+	auto comp_val = [upperBound](int value){ return 0 < value && value < upperBound;  };
+	cout << comp_val(40) << endl;
 	return 0;
 }
